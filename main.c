@@ -7,12 +7,10 @@
 int sorted[ARR_SIZE] = {0, 15, 25, 27, 28, 30, 32, 34, 35, 37};
 int sortedDec[ARR_SIZE] = {30, 28, 25, 23, 21, 15, 13, 12, 11, 8};
 int unsorted[ARR_SIZE] = {0, 27, 2, 5, 54, 1, 7, 3, 24, 22};
-
 bool isSorted[THREAD_COUNT];
 
 void *checkSorted(void *arg);
 void *checkSortedDec(void *arg);
-
 bool checkDecreasing(int a[]);
 
 int main()
